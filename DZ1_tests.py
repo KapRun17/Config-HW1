@@ -45,8 +45,8 @@ def test_cat():
 
 # Тестирование echo
 def test_echo():
-    result = echo("test complited x1")
-    assert "test complited x1" in result
+    result = echo("test complited x")
+    assert "test complited x" in result
 
 # Тестирование rm
 def test_rm():
