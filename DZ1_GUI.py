@@ -126,7 +126,7 @@ def rm(path):
                 if path != item.filename:
                     zout.writestr(item, buffer)
     if platform.system() == "Windows":
-        os.system('del files.zip')
+        os.system('del files.zip')            # Используйте 'del' для удаления
         os.system('ren files.zip.tmp files.zip')  # Используйте 'ren' для переименования
     else:
         os.system('rm files.zip')             # Используйте 'rm' для удаления в Unix
